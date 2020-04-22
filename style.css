@@ -1,0 +1,151 @@
+/*nav,ul,li{
+    display: inline;
+    padding: 20px,20px;
+    background-color: #b3ff00;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 70px;
+}
+.sofern{
+    
+}*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: none;
+}
+
+li a {
+ /* display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: sans-serif;
+  */
+  float: left;
+  padding: 14px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 14%;
+  text-align: center;
+  margin: 0;
+}
+
+ 
+li a:hover {
+  background-color:greenyellow;
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 500px) {
+  .content a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+#opsiv{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+/*
+nav a:hover{
+  background: white;
+}
+*/
+img{
+    outline-color: yellow;
+    outline-style: dashed;
+    outline-width: medium;
+}
+.drop,p{
+   font-size: 20px;
+   font-family: sans-serif;
+}
+table{
+  border-collapse: collapse;
+  width: 50%;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  font-family: sans-serif;
+
+}
+table,th,td{
+  border: 1px solid black;
+
+}
+#lex{
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: Black;
+}
+#home{
+  background-color: #bdbaa6;
+}
+#about{
+  background-color: #8dc98d;
+}
+#newarrivals{
+  background-color: #8fb6c7;
+}
+#usedandold{
+  background-color: #b685c7;
+}
+#gallery{
+  background-color: #692323;
+}
+@media(min-width:500px) {
+  body{
+
+  }
+}
+@media(max-width:499px) {
+  body{
+
+  }
+}
+
+#toyo,#mc,#vw,#rolls,#GTO,#gem,#ferr{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.iod{
+  color: white;
+  text-align: center;
+}
+
+.container,.row,.col-3{
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+.leen{
+  text-align: center;
+  font-size: 20px;
+}
+#abp{
+  color: red;
+}
+.loooo{
+  text-align: center;
+  font-size: 40px;
+  color: black;
+}

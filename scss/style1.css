@@ -1,0 +1,109 @@
+.warning, .error {
+  font-size: 20px;
+  color: 75;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.warning {
+  color: yellow;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: none;
+}
+
+li a {
+  /* display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: sans-serif;
+  */
+  float: left;
+  padding: 14px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 14%;
+  text-align: center;
+  margin: 0;
+}
+
+li a:hover {
+  background-color: greenyellow;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  .content a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+div {
+  font-size: 18px;
+}
+
+div p {
+  color: black;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+div ul {
+  color: green;
+}
+
+div table {
+  color: cornflowerblue;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+div li {
+  list-style-type: none;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: rgba(62, 77, 66, 0.404);
+}
+
+img {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#luda {
+  font-size: 30px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style1.css.map */
